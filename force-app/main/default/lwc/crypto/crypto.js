@@ -15,7 +15,7 @@ export default class Crypto extends LightningElement {
     @wire(getLivePrices)
     coinPrices;
 
-    get propIsDefined () {
+    get coinPricesDefined () {
         return this.coinPrices !== undefined && this.coinPrices.data !== undefined
     }
 }
