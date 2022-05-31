@@ -1,0 +1,13 @@
+<template>
+    <template if:true={propIsDefined}>
+        <lightning-card title="Crypto Currency Live Prices" icon-name="custom:custom14">
+            <div style="height: 300px;">
+                <lightning-datatable
+                        key-field="id"
+                        data={coinPrices.data}
+                        columns={columns}>
+                </lightning-datatable>
+            </div>    
+        </lightning-card>
+    </template>
+</template>
