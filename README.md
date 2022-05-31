@@ -5,10 +5,13 @@ We will use Coin Market Cap free latest listing api to get the Cryptocurrency pr
 ## Important Files
 
 force-app/main/default/classes/CryptoPriceController.cls
+
 force-app/main/default/classes/CryptoPriceController.cls-meta.xml
 
 force-app/main/default/lwc/crypto/crypto.html
+
 force-app/main/default/lwc/crypto/crypto.js
+
 force-app/main/default/lwc/crypto/crypto.js-meta.xml
 
 ## Read All About It
